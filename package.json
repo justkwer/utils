@@ -1,0 +1,14 @@
+{
+  "name": "utils",
+  "packageManager": "yarn@4.7.0",
+  "type": "module",
+  "scripts": {
+    "convertToWebp": "node utils/index.js convertToWebp"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}
